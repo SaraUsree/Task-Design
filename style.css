@@ -1,0 +1,883 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  /*start nav*/         
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px 0px;
+}
+
+
+nav img {
+width: 130px;
+}
+
+nav ul{
+display: flex;
+align-items: center;
+list-style: none;
+}
+nav ul li a{
+    margin: 0 12px;
+    color: #333;
+  text-decoration: none;
+    font-size: 20px;
+position: relative;
+}
+
+
+.login{
+position: relative;
+}
+nav .login img{
+width:120px ;
+height: 50px;
+}
+nav .login span{
+position: absolute;
+left: 32%;
+top: 20%;
+font-size:20px ;
+color: #333;
+}
+.linknav:hover{
+color: rgb(178, 25, 219);
+}
+.linknav{
+    transition: 0.1s;
+}
+
+.linknav:hover::after{
+    content: "";
+    width: 100%;
+    height: 5%;
+    background-color:rgb(178, 25, 219) ;
+    display: inline-block;
+    position: absolute;
+    transition: 5s;
+    bottom: -3px;
+    left: 0;
+    }
+    
+
+
+    @media only screen and (min-width:400px) {
+        nav{
+            padding: 10px 10px 0px;  }
+    
+            nav ul li a{
+                font-size: 10px;
+            position: relative;
+            } 
+            nav .login img{
+                width:50px ;
+                height: 30px;
+                }
+                nav .login span{
+              
+                font-size:10px ;
+               
+                }             
+        }    
+        @media only screen and (min-width: 700px) {
+            nav{
+                padding: 10px 10px 0px;  }
+        
+                nav ul li a{
+                    font-size: 20px;
+                position: relative;
+                }    
+                    nav .login img{
+                        width:120px ;
+                        height: 50px;
+                        }
+                        nav .login span{
+                      
+                        font-size:20px ;
+                       
+                        }
+
+                    }
+    
+ /*finish nav*/
+     /*start section one*/
+.dive1{
+   display: flex; 
+   justify-content: space-between;
+   padding: 0 100px;
+   position: relative;
+}
+
+.div2{
+padding-top: 180px;
+width: 50%;
+}
+
+
+.div2 h3{
+    font-size:55px ;
+    font-weight: 600;
+    color: rgb(99, 114, 121);
+  
+}
+
+.div2 h3 span{
+    color: rgb(122, 54, 138); 
+}
+
+.div2{
+    color:rgb(175, 175, 175) ;
+    font-size:28px ;
+    font-weight:400px ;
+margin-top: 20px;
+}
+
+
+.images{
+width: 50%;
+position: relative;
+}
+.blue{
+    position: absolute;
+    width:100%;
+    height: 100vh;
+    z-index:-999;
+
+    }
+.land{
+    width: 100%;
+}
+.mask1{
+    position:absolute;
+    width: 46%;
+    left: 25%;
+    top: 0;
+}
+.clouds{
+    position:absolute;
+    width: 58%;
+    left: 22%;
+    top: 58%;
+}
+
+.waves{
+position: absolute;
+width:67%;
+height: 27%;
+top: 75%;
+left:8%;
+}
+
+@media only screen and (max-width: 500px) {
+   .blue{
+    height: 280px;
+   }
+   
+.div2 h3{
+    font-size:10px ;
+  
+}
+                
+.div2 p{
+    font-size:8px ;
+  
+}
+.div2{
+    padding-top: 50px;
+  
+    }
+    .images{
+        position: relative;
+        }
+        .dive1{
+                                       
+            padding: 0 40px;
+            position: relative;
+         }
+
+            }
+
+
+            @media only screen and (min-width: 500px) {
+                .blue{
+            height:370px;
+                }
+                .div2 h3{
+                    font-size:19px ;
+                  
+                }
+                                
+                .div2 p{
+                    font-size:12px ;
+                  
+                }
+                .div2{
+                    padding-top: 100px;
+                  
+                    }
+                    .images{
+                        position: relative;
+                        }
+
+                        .dive1{
+                                       
+                            padding: 0 50px;
+                            position: relative;
+                         }
+                         }
+             
+
+                 
+            @media only screen and (min-width:800px) {
+                .blue{
+            height:520px;
+                }
+                
+                .div2 h3{
+                    font-size:30px ;
+                  
+                }
+                                
+                .div2 p{
+                    font-size:18px ;
+                  
+                }
+                .div2{
+                    padding-top: 130px;
+                  
+                    }
+                    .images{
+                        position: relative;
+                        }
+                        .dive1{
+                                       
+                            padding: 0 70px;
+                            position: relative;
+                         }
+                     
+                  }
+             
+                         @media only screen and (min-width:1190px) {
+                            .blue{
+                        height:100vh;
+                            }
+                                          
+                            .div2 h3{
+                                font-size:54px ;
+                              
+                            }
+                                            
+                            .div2 p{
+                                font-size:28px ;
+                              
+                            }
+                            .div2{
+                                padding-top: 180px;
+                              
+                                }
+                                .images{                                
+                                    position: relative;
+                                    }
+                                    .dive1{
+                                       
+                                        padding: 0 100px;
+                                        position: relative;
+                                     }
+                                
+                                     
+                                     }
+                         
+/*Finish section one*/
+    /*start section two*/
+.sec2{
+    position: relative;
+    text-align: center;
+    padding: 0px 100px;
+    height: 120vh;
+    }
+.dives div {
+width: 400px;
+}
+
+.dives div img{
+    width: 250px;
+
+}
+
+.dives div h3{
+    color: rgb(153, 153, 153);
+    font-size: 24px;
+}
+
+.dives div p{
+    color: rgb(185, 185, 185);
+    font-size: 19px;
+}
+
+.dives .Group140 {
+position: absolute;
+top: 18%;
+left: 10%;
+}
+
+.dives .Group152{
+position: absolute;
+top:42%;
+left: 40%;
+}
+
+.Group1020{
+position: absolute;
+top:74%;
+right: 12%;
+}
+.sec2 .secondimg{
+    position: absolute;
+top: 8%;
+left: 22%;
+height: 70%;
+width: 59%;
+}
+.divy{
+position: absolute;
+top: 80%;
+left: 5%;
+}
+.xdiv{
+    position: relative;
+}
+.xdiv img{
+    width: 340px;
+}
+
+.xdiv div{
+    position: absolute;
+    top: 30%;
+    left: 18%;
+    text-align: left;
+}
+
+.xdiv div p{
+color: rgb(255, 255, 255);
+font-size: 25px;
+}
+.xdiv div h3{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 400;
+}
+
+
+@media only screen and (max-width:500px) { 
+    .Group1020{
+        top:74%;
+        right: 15%;
+     
+        } 
+        .sec2 .secondimg{
+            top: 13%;
+            left: 30%;
+            height: 70%;
+            width: 68%;
+            }
+         
+           
+.dives .Group140 {
+top: 23%;
+left: 8%;
+}
+
+.dives .Group152{
+
+top:45%;
+left: 45%;
+}
+.dives div img{
+width: 160px;
+
+}
+.dives div {    
+width: 100px;
+}
+.dives div h3{
+font-size:9px;
+}
+.dives div p{
+font-size: 5px;
+} 
+
+.divy{
+top: 71%;
+left: 2%;
+}
+.xdiv{
+    position: relative;
+}
+.xdiv img{
+    width: 150px;
+}
+
+.xdiv div{          
+    top: 20%;
+    left: 18%;           
+}
+
+.xdiv div p{
+font-size: 13px;
+}
+.xdiv div h3{
+    font-size: 25px;
+}  }
+
+
+             @media only screen and (min-width:500px) { 
+                .Group1020{
+                    top:81%;
+                    right: 9%;
+                 
+                    } 
+                    .sec2 .secondimg{
+                        top: 13%;
+                        left: 30%;
+                        height: 71%;
+                        width: 75%;
+                        }
+                     
+                       
+.dives .Group140 {
+top: 17%;
+left: 8%;
+}
+
+.dives .Group152{
+
+top:43%;
+left: 53%;
+}
+.dives div img{
+    width: 200px;
+
+}
+.dives div {    
+    width: 100px;
+}
+.dives div h3{
+    font-size:15px;
+    font-weight: 700;
+    }
+    .dives div p{
+       font-size: 12px;
+        } 
+        
+        .divy{
+            top: 78%;
+            left: 2%;
+            }
+            .xdiv{
+                position: relative;
+            }
+            .xdiv img{
+                width: 250px;
+            }
+            
+            .xdiv div{          
+                top: 25%;
+                left: 18%;           
+            }
+            
+            .xdiv div p{
+            font-size: 20px;
+            }
+            .xdiv div h3{
+                font-size: 35px;
+            }
+                   
+
+
+                         }
+
+
+
+                         @media only screen and (min-width:800px) { 
+                            .Group1020{
+                                top:76%;
+                                right: -5%;
+                                } 
+                                .sec2 .secondimg{
+                                top: 12%;
+                                left: 29%;
+                                height: 70%;
+                                width: 75%;
+                                }
+                                
+.dives .Group140 {
+    top: 18%;
+    left: 10%;
+    }
+    
+    .dives .Group152{
+        
+    top:38%;
+    left: 47%;
+    }
+    
+                                .dives div {
+                                    width: 350px;
+                                    }
+                                
+                                        
+                                      
+                                        .dives div h3{
+                                           
+                                            font-size: 24px;
+                                        }
+                                        
+                                        .dives div p{
+                                            
+                                            font-size: 19px;
+                                        }
+                                        
+                                        .divy{
+                                        top: 70%;
+                                        left: 5%;
+                                        }
+                                        .xdiv{
+                                            position: relative;
+                                        }
+                                        .xdiv img{
+                                            width: 340px;
+                                        }
+                                        
+                                        .xdiv div{
+                                       
+                                            top: 30%;
+                                            left: 18%;
+                                  
+                                        }
+                                        
+                                        .xdiv div p{
+                                        
+                                        font-size: 25px;
+                                        }
+                                        .xdiv div h3{
+                                          
+                                            font-size: 50px;
+                                           
+                                        }           
+                                
+                                    }
+                                    @media only screen and (min-width:1190px) { 
+                                       
+                                        .sec2{
+                                            position: relative;
+                                            text-align: center;
+                                            padding: 0px 100px;
+                                            height: 120vh;
+                                            }
+                                        .dives div {
+                                        width: 400px;
+                                        }
+                                        
+                                        .dives div img{
+                                            width: 250px;
+                                        
+                                        }
+                                        
+                                        .dives div h3{
+                                            color: rgb(153, 153, 153);
+                                            font-size: 24px;
+                                        }
+                                        
+                                        .dives div p{
+                                            color: rgb(185, 185, 185);
+                                            font-size: 19px;
+                                        }
+                                        
+                                        .dives .Group140 {
+                                        position: absolute;
+                                        top: 18%;
+                                        left: 10%;
+                                        }
+                                        
+                                        .dives .Group152{
+                                        position: absolute;
+                                        top:42%;
+                                        left: 40%;
+                                        }
+                                        
+                                        .Group1020{
+                                        position: absolute;
+                                        top:74%;
+                                        right: 12%;
+                                        }
+                                        .sec2 .secondimg{
+                                            position: absolute;
+                                        top: 8%;
+                                        left: 22%;
+                                        height: 70%;
+                                        width: 59%;
+                                        }
+                                        .divy{
+                                        position: absolute;
+                                        top: 80%;
+                                        left: 5%;
+                                        }
+                                        .xdiv{
+                                            position: relative;
+                                        }
+                                        .xdiv img{
+                                            width: 340px;
+                                        }
+                                        
+                                        .xdiv div{
+                                            position: absolute;
+                                            top: 30%;
+                                            left: 18%;
+                                            text-align: left;
+                                        }
+                                        
+                                        .xdiv div p{
+                                        color: rgb(255, 255, 255);
+                                        font-size: 25px;
+                                        }
+                                        .xdiv div h3{
+                                            color: rgb(255, 255, 255);
+                                            font-size: 50px;
+                                            font-weight: 400;
+                                        }
+
+
+
+                                            } 
+/*Finish section two*/
+/*start section three*/
+.sec3{
+padding-top: 350px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.img3{
+padding: 0 30px;
+}
+
+.big h3{
+    color: #999;
+font-size: 25px;
+}
+.big p{
+color: rgb(185, 185, 185);
+font-size: 20px;
+font-weight: 400;
+margin-top: 10px;
+}
+
+@media only screen and (max-width: 576px){
+.sec3{
+    padding-top: 80px;
+}}
+
+@media only screen and (max-width: 768px){
+.sec3 {
+    padding-top: 50px;
+}}
+@media only screen and (max-width: 1200px){
+.sec3 {
+    padding-top: 10px;
+}}
+
+@media only screen and (max-width: 576px){
+.sec3 .img1 {
+    width: 50px;
+}}
+@media only screen and (max-width: 768px){
+.sec3.img1  {
+    width: 50px;
+}}
+@media only screen and (max-width: 1200px){
+.sec3.img1 {
+    width: 200px;
+}}
+
+@media only screen and (max-width: 576px){
+.sec3 .big {
+    padding: 0 1px;
+}}
+
+@media only screen and (max-width: 576px){
+.sec3 .big .img3 {
+    width: 150px;
+}}
+@media only screen and (max-width: 768px){
+ .sec3 .img3 {
+    width: 200px;
+}}
+@media only screen and (max-width: 1200px){
+.sec3 .img3 {
+    width: 400px;
+}}
+
+@media only screen and (max-width: 576px){
+.big h3 {
+    font-size: 9px;
+}}
+@media only screen and (max-width: 768px){
+    .big h3 {
+        font-size: 13px;
+    }}
+    
+
+@media only screen and (max-width: 576px){
+.big p {
+    font-size: 5px;
+}}
+
+@media only screen and (max-width: 768px){
+.big p {
+    font-size: 10px;
+}}
+
+
+/*finish section three*/
+/*start footer*/
+footer{
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.Group1131{
+    position: absolute;
+    width: 110%;
+    height: 150%;
+    left: -3%;
+top: 0;
+}
+
+.removebg{
+position:absolute;
+width: 40%;
+right: 10%;
+bottom: 0%;
+}
+.icons{
+position: absolute;
+left:10%;
+top: 65%;
+}
+.icons div .btt{
+    position: relative;
+    width: 130px;
+    height: 50px;
+    margin-right: 35px;
+}
+.icons div .btt .photo{
+    width:130px ;
+    height: 50px;
+}
+.icons div .btt p{
+    font-size: 12px;
+    color: #333;
+}
+
+.icons div .btt span{
+display: block;
+color:#7a3d8a;
+font-size: 18px;
+}
+.btt div{
+    position: absolute;
+    left: 10%;
+    bottom: 40%;
+    display: flex;
+    align-items: center;
+}
+ .social{
+    position: absolute;
+    bottom: 11%;
+    left: 10%;
+    font-size: 36px;
+ }
+
+.soclink .social i{
+    color:#fff;
+}
+.footnav{
+    position: absolute;
+    bottom:3%;
+    left: 9%;
+    list-style: none;
+    display: flex;
+justify-content: space-around;  
+}
+.footnav .ul2 a{
+    margin: 0 12px;
+    color: #fff;
+  text-decoration: none;
+    font-size: 15px
+}
+
+@media only screen and (max-width: 576px){
+footer .removebg {
+    display: none;
+}}
+@media only screen and (max-width: 992px){
+footer .icons {
+    top: 65%;
+ }}
+
+@media only screen and (max-width: 576px){
+ footer .photo{
+     width: 100px;
+     height: 40px;
+ }}
+
+ @media only screen and (max-width: 768px){
+ footer .photo {
+     width: 100px;
+     height: 40px;
+ }}
+ @media only screen and (max-width: 576px){
+ .social{
+     margin-top: 5px;
+ }}
+ 
+ @media only screen and (max-width: 768px){
+ .social{
+     margin-top: 10px;
+ }}
+ @media only screen and (max-width: 992px){
+ .social{
+     margin-top: 10px;
+ }}
+
+ @media only screen and (max-width: 576px){
+ footer ul {
+     margin-top: 5px;
+ }}
+ 
+ @media only screen and (max-width: 768px){
+ footer ul {
+     margin-top: 10px;
+ }}
+ @media only screen and (max-width: 992px){
+ footer ul {
+     margin-top: 10px;
+ }}
+
+
+/*finish footer*/
+
+
+
+
+
